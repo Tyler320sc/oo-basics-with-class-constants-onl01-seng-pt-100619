@@ -7,6 +7,7 @@ BRANDS = []
   def initialize(brands)
     @brands = brands
     BRANDS << brands
+    
   end
 
   def cobble
