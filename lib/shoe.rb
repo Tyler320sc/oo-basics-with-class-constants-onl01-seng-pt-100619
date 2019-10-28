@@ -7,12 +7,12 @@ BRANDS = []
   def initialize(brands)
     @brands = brands
     BRANDS << brands
-    
+    BRANDS.uniq!
   end
 
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
   end
-  BRANDS.uniq! 
+  # BRANDS.uniq! 
 end
